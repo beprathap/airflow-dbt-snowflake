@@ -158,3 +158,20 @@ check airflow installation:
 which airflow
 
 I changed airflow webui password going manually to the simple_auth_manager_passwords.json.generated file
+
+
+
+Run Airflow
+
+pip install pandas
+pip install snowflake-connector-python
+pip install boto3
+
+
+Now its time for dbt
+
+>
+python3.11 -m venv dbt_venv
+source dbt_venv/bin/activate
+pip install --upgrade pip
+pip install dbt-snowflake
