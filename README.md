@@ -41,7 +41,7 @@ brew services stop postgresql@16
 brew services list | grep postgresql
 ```
 
-How to connect every time (because you’re on port 5433):
+## How to connect every time (because you’re on port 5433):
 Quick connect (local socket):
 ```bash
 psql -p 5433 postgres
@@ -51,7 +51,7 @@ More explicit (TCP):
 psql -h localhost -p 5433 postgres
 ```
 
-If you want to avoid remembering the port, add an alias in your shell config (~/.zshrc):
+## If you want to avoid remembering the port, add an alias in your shell config (~/.zshrc):
 ```bash
 alias psqlpg='psql -h localhost -p 5433'
 ```
