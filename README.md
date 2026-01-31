@@ -56,7 +56,7 @@ psql -h localhost -p 5433 postgres
 alias psqlpg='psql -h localhost -p 5433'
 ```
 
-If you’re inside psql and see prompts like:
+# If you’re inside psql and see prompts like:
 
 postgres=# (ready)
 
