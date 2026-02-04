@@ -12,13 +12,10 @@ sys.path.append('/home/airflow/airflow-code-demo/dags')
 from source_load.data_load import run_script
 
 
-
-
-
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 5, 12),
+    'start_date': datetime(2025, 5, 12),
     'email': ['airflow@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
